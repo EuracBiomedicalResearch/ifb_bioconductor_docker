@@ -10,6 +10,11 @@ This repository defines docker containers extending the [docker containers from
 Bioconductor](https://github.com/Bioconductor/bioconductor_docker) with
 additional software needed at the Institute for Biomedicine from Eurac Research.
 
+Each branch is *linked* to a different Bioconductor (docker) version, with the
+*main* branch always linking to the current developmental Bioconductor version
+and respective docker image with tag *devel*.
+
+
 ## Additional software
 
 The docker container builds on the official Bioconductor docker container adding
