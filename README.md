@@ -32,12 +32,12 @@ the following software:
 To build the docker image locally run
 
 ```
-docker build . --pull -t jorainer/ifb_bioconductor_docker:RELEASE_3_12
+docker build . --pull -t jorainer/ifb_bioconductor_docker:devel
 ```
 
 The docker can then be started with (which will open an interactive shell 
 within the running container).
 
 ```
-docker run -it --user rstudio jorainer/ifb_bioconductor_docker:RELEASE_3_12 /bin/bash
+docker run -it --user rstudio jorainer/ifb_bioconductor_docker:devel /bin/bash
 ```
