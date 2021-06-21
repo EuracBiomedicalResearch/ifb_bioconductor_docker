@@ -4,7 +4,7 @@
 ![docker pulls](https://img.shields.io/docker/pulls/jorainer/ifb_bioconductor_docker)
 [![Docker Image Version (latest by date)](https://img.shields.io/docker/v/jorainer/ifb_bioconductor_docker?label=docker%20image)](https://hub.docker.com/repository/docker/jorainer/ifb_bioconductor_docker)
 
-**Last updated**: 2021-05-25
+**Last updated**: 2021-06-21
 
 This repository defines docker containers extending the [docker containers from
 Bioconductor](https://github.com/Bioconductor/bioconductor_docker) with
@@ -13,6 +13,8 @@ additional software needed at the Institute for Biomedicine from Eurac Research.
 Each branch is *linked* to a different Bioconductor (docker) version, with the
 *main* branch always linking to the current developmental Bioconductor version
 and respective docker image with tag *devel*.
+
+This particular branch (*RELEASE_3_13*) is linked to Bioconductors 3.13 branch.
 
 
 ## Additional software
