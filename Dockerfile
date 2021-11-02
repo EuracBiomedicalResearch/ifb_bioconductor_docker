@@ -1,4 +1,4 @@
-FROM bioconductor/bioconductor_docker:RELEASE_3_13
+FROM bioconductor/bioconductor_docker:RELEASE_3_14
 
 LABEL name="jorainer/ifb_bioconductor_docker" \
       url="https://github.com/EuracBiomedicalResearch/ifb_bioconductor_docker" \

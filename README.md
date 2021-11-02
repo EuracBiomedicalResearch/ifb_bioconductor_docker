@@ -4,7 +4,7 @@
 ![docker pulls](https://img.shields.io/docker/pulls/jorainer/ifb_bioconductor_docker)
 [![Docker Image Version (latest by date)](https://img.shields.io/docker/v/jorainer/ifb_bioconductor_docker?label=docker%20image)](https://hub.docker.com/repository/docker/jorainer/ifb_bioconductor_docker)
 
-**Last updated**: 2021-10-04
+**Last updated**: 2021-11-02
 
 This repository defines docker containers extending the [docker containers from
 Bioconductor](https://github.com/Bioconductor/bioconductor_docker) with
@@ -14,7 +14,7 @@ Each branch is *linked* to a different Bioconductor (docker) version, with the
 *main* branch always linking to the current developmental Bioconductor version
 and respective docker image with tag *devel*.
 
-This particular branch (*RELEASE_3_13*) is linked to Bioconductors 3.13 branch.
+This particular branch (*RELEASE_3_14*) is linked to Bioconductors 3.14 branch.
 
 
 ## Additional software
@@ -34,12 +34,12 @@ the following software:
 To build the docker image locally run
 
 ```
-docker build . --pull -t jorainer/ifb_bioconductor_docker:devel
+docker build . --pull -t jorainer/ifb_bioconductor_docker:RELEASE_3_14
 ```
 
 The docker can then be started with (which will open an interactive shell 
 within the running container).
 
 ```
-docker run -it --user rstudio jorainer/ifb_bioconductor_docker:devel /bin/bash
+docker run -it --user rstudio jorainer/ifb_bioconductor_docker:RELEASE_3_14 /bin/bash
 ```
