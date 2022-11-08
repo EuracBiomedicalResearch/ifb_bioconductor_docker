@@ -5,7 +5,7 @@
 [![Docker Image Version (latest by date)](https://img.shields.io/docker/v/jorainer/ifb_bioconductor_docker?label=docker%20image)](https://hub.docker.com/repository/docker/jorainer/ifb_bioconductor_docker)
 
 **Last updated**: 2022-11-08
-
+**Bioconductor release**: 3.17 (devel)
 
 This repository defines docker containers extending the [docker containers from
 Bioconductor](https://github.com/Bioconductor/bioconductor_docker) with
