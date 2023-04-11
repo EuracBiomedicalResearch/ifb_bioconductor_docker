@@ -39,7 +39,8 @@ RUN cpanm -L $PLIB --notest --reinstall Cairo \
     && cpanm -L $PLIB --reinstall --force Tk \
     && echo "PERL5LIB=/usr/local/lib/perl5:$PERL5LIB" >> /usr/local/lib/R/etc/Renviron.site
 
-## Install tinytex
-RUN su rstudio Rscript -e "options(repos = c(CRAN = 'https://cran.r-project.org')); BiocManager::install('tinytex'); tinytex::install_tinytex()"
-
 ENV PERL5LIB="/usr/local/lib/perl5"
+
+## Install tinytex
+USER rstudio
+RUN Rscript -e "options(repos = c(CRAN = 'https://cran.r-project.org')); BiocManager::install('tinytex'); tinytex::install_tinytex()"
