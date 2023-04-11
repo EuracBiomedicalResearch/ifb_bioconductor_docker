@@ -26,7 +26,7 @@ the following software:
 - A set of perl libraries required by
   [Haplopainter](http://haplopainter.sourceforge.net/) to enable usage of this
   software for pedigree plotting using the `FamAgg` Bioconductor package.
-
+- The `tinytex` R package installed for the *rstudio* user.
 
 ## Build and test the docker images locally
 
