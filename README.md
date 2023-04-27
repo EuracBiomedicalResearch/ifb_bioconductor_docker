@@ -28,6 +28,7 @@ the following software:
   software for pedigree plotting using the `FamAgg` Bioconductor package.
 - The `tinytex` R package installed for the *rstudio* user.
 
+
 ## Build and test the docker images locally
 
 To build the docker image locally run
