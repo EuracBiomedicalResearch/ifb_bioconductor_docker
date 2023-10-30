@@ -30,7 +30,7 @@ jobs:
           push: true
           tag_with_ref: true
           tag_with_sha: true
-          tags: jorainer/ifb_bioconductor_docker:devel
+          tags: jorainer/ifb_bioconductor_docker:RELEASE_3_18
       -
         name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
