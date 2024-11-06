@@ -31,7 +31,7 @@ RUN cpanm -L $PLIB --notest --reinstall Cairo \
     && cpanm -L $PLIB --reinstall Data::Dumper \
     && cpanm -L $PLIB --reinstall DBI \
     && cpanm -L $PLIB --reinstall File::Basename \
-    && cpanm -L $PLIB --reinstall File::Spec::Functions \
+    && cpanm -L $PLIB --reinstall --force File::Spec::Functions \
     && cpanm -L $PLIB --force --notest Gtk2 \
     && cpanm -L $PLIB --reinstall Math::Trig \
     && cpanm -L $PLIB --reinstall Sort::Naturally \
