@@ -44,3 +44,4 @@ ENV PERL5LIB="/usr/local/lib/perl5"
 ## Install tinytex
 USER rstudio
 RUN Rscript -e "options(repos = c(CRAN = 'https://cran.r-project.org')); BiocManager::install('tinytex'); tinytex::install_tinytex()"
+USER root
