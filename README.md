@@ -15,7 +15,6 @@ Each branch is *linked* to a different Bioconductor (docker) version, with the
 *main* branch always linking to the current developmental Bioconductor version
 and respective docker image with tag *devel*.
 
-
 ## Additional software
 
 The docker container builds on the official Bioconductor docker container adding
@@ -27,7 +26,6 @@ the following software:
   [Haplopainter](http://haplopainter.sourceforge.net/) to enable usage of this
   software for pedigree plotting using the `FamAgg` Bioconductor package.
 - The `tinytex` R package installed for the *rstudio* user.
-
 
 ## Build and test the docker images locally
 
