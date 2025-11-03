@@ -5,7 +5,7 @@
 [![Docker Image Version (latest by date)](https://img.shields.io/docker/v/jorainer/ifb_bioconductor_docker?label=docker%20image)](https://hub.docker.com/repository/docker/jorainer/ifb_bioconductor_docker)
 
 **Last updated**: 2025-11-03
-**Bioconductor release**: 3.21
+**Bioconductor release**: 3.22
 
 This repository defines docker containers extending the [docker containers from
 Bioconductor](https://github.com/Bioconductor/bioconductor_docker) with
@@ -32,12 +32,12 @@ the following software:
 To build the docker image locally run
 
 ```
-docker build . --pull -t jorainer/ifb_bioconductor_docker:RELEASE_3_21
+docker build . --pull -t jorainer/ifb_bioconductor_docker:RELEASE_3_22
 ```
 
 The docker can then be started with (which will open an interactive shell 
 within the running container).
 
 ```
-docker run -it --user rstudio jorainer/ifb_bioconductor_docker:RELEASE_3_21 /bin/bash
+docker run -it --user rstudio jorainer/ifb_bioconductor_docker:RELEASE_3_22 /bin/bash
 ```
